@@ -1,0 +1,13 @@
+{
+  "name": "sds-origin-default",
+  "workers": 2,
+  "overlay_driver": "tk",
+  "hotkey_attach": "F8",
+  "hotkey_detach": "F9",
+  "modules": {
+    "godmode": { "enabled": true, "params": { "godmode": true } },
+    "inf_mana": { "enabled": true, "params": { "inf_mana": true } },
+    "esp_actors": { "enabled": true, "params": { "max_dist": 120.0, "names": true } },
+    "drop_rate": { "enabled": false, "params": { "drop_mult": 25.0 } }
+  }
+}
